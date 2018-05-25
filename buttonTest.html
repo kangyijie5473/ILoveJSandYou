@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fisrt html</title>
+</head>
+<body>
+<p id="question">Do you love me ?</p>
+<P id="answer"> Yes, I do.</P>
+<script type="text/javascript">
+	function answerGoodBoy() {
+		// body...
+		x = document.getElementById("answer");
+		x.innerHTML = "No, You are a good boy";
+	}
+</script>
+<script type="text/javascript">
+	function answerFxxk() {
+		x = document.getElementById("answer");
+		x.innerHTML = "Fxxk You!"
+	}
+</script>
+<button type="button" onclick="answerGoodBoy()"> Yes</button>
+<button type="button" onclick="answerFxxk()"> NO</button>
+</body>
+</html>
